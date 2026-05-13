@@ -1,12 +1,13 @@
 {
-  "starfallTest": {
+  "starfall": {
     "type": "combat",
-    "name": "Starfall Test",
+    "name": "Starfall",
     "school": {
       "air": false,
       "earth": false,
-      "fire": true,
-      "water": false
+      "fire": false,
+      "water": false,
+      "psychic": true
     },
     "level": 3,
     "power": 10,
@@ -24,19 +25,19 @@
     },
     "targetType": "LOCATION",
     "animation": {
-      "hit": [
-        "starfallTest/C06BLIZZ"
+      "affect": [
+        "spire/spells/comet.def"
       ]
     },
     "sounds": {
       "cast": "METEOR"
     },
     "graphics": {
-      "iconBook": "starfallTest/blizz_iconBook.bmp",
-      "iconScroll": "starfallTest/blizz_iconScroll.bmp",
-      "iconScenarioBonus": "starfallTest/blizz_iconScenarioBonus.bmp",
-      "iconEffect": "starfallTest/blizz_iconEffect.bmp",
-      "iconImmune": "starfallTest/blizz_iconEffect.bmp"
+      "iconBook": "spire/spells/starfall/blizz_iconBook.bmp",
+      "iconScroll": "spire/spells/starfall/blizz_iconScroll.bmp",
+      "iconScenarioBonus": "spire/spells/starfall/blizz_iconScenarioBonus.bmp",
+      "iconEffect": "spire/spells/starfall/blizz_iconEffect.bmp",
+      "iconImmune": "spire/spells/starfall/blizz_iconEffect.bmp"
     },
     "flags": {
       "damage": true,
@@ -45,7 +46,6 @@
     "targetCondition": {},
     "levels": {
       "base": {
-        "description": "",
         "cost": 0,
         "power": 10,
         "range": "1",
@@ -60,25 +60,25 @@
         }
       },
       "none": {
-        "description": "{Starfall Test}\n\nTemporary Fire Magic test version.\n\nNo mastery: Frost Ring-like pattern. Troops in hexes surrounding the target hex receive damage. The target hex is unaffected.\n\nDamage: 10 + Spell Power x 10.",
+        "description": "{Starfall}\n\nNo mastery: Frost Ring-like pattern. Troops in hexes surrounding the target hex receive damage. The target hex is unaffected.\n\nDamage: 10 + Spell Power x 10.",
         "cost": 15,
         "power": 10,
         "range": "1"
       },
       "basic": {
-        "description": "{Basic Starfall Test}\n\nTemporary Fire Magic test version.\n\nBasic: Frost Ring-like pattern. Troops in hexes surrounding the target hex receive damage. The target hex is unaffected.\n\nDamage: 10 + Spell Power x 10.",
+        "description": "{Basic Starfall}\n\nBasic: Frost Ring-like pattern. Troops in hexes surrounding the target hex receive damage. The target hex is unaffected.\n\nDamage: 10 + Spell Power x 10.",
         "cost": 15,
         "power": 10,
         "range": "1"
       },
       "advanced": {
-        "description": "{Advanced Starfall Test}\n\nTemporary Fire Magic test version.\n\nAdvanced: Fireball-like pattern. Troops in the target hex and surrounding hexes receive damage.\n\nDamage: 25 + Spell Power x 10.",
+        "description": "{Advanced Starfall}\n\nAdvanced: Fireball-like pattern. Troops in the target hex and surrounding hexes receive damage.\n\nDamage: 25 + Spell Power x 10.",
         "cost": 12,
         "power": 25,
         "range": "0,1"
       },
       "expert": {
-        "description": "{Expert Starfall Test}\n\nTemporary Fire Magic test version.\n\nExpert: target hex, radius 1 and radius 3 receive damage. Radius 2 should be unaffected.\n\nDamage: 50 + Spell Power x 10.",
+        "description": "{Expert Starfall}\n\nExpert: target hex, radius 1 and radius 3 receive damage. Radius 2 should be unaffected.\n\nDamage: 50 + Spell Power x 10.",
         "cost": 10,
         "power": 50,
         "range": "0,1,3"
