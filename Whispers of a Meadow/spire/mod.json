@@ -107,7 +107,8 @@
 		"config/spire/spells/confusion.json",
 		"config/spire/spells/empathy.json",
 		"config/spire/spells/fear.json",
-		"config/spire/spells/mindWhip.json"
+		"config/spire/spells/mindWhip.json",
+		"config/spire/spells/starfall.json"
 	],
 	"battlefields" : [
 		"config/spire/terrain/battlefields/battlefields.json"
