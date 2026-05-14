@@ -55,7 +55,7 @@
           }
         },
         "targetModifier": {
-          "smart": true,
+          "smart": false,
           "clearAffected": false
         }
       },
