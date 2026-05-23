@@ -1,7 +1,7 @@
 {
 	"spire_starfall" : {
 		"type" : "combat",
-		"name" : "Star Fall",
+		"name" : "Star Fall [old]",
 		"school" : {
 			"air" : true,
 			"earth" : false,
