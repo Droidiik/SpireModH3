@@ -110,7 +110,8 @@
 		"config/spire/spells/empathy.json",
 		"config/spire/spells/fear.json",
 		"config/spire/spells/mindWhip.json",
-		"config/spire/spells/intervention.json"
+		"config/spire/spells/intervention.json",
+		"config/spire/spells/deepFrost.json"
 	],
 	"battlefields" : [
 		"config/spire/terrain/battlefields/battlefields.json"

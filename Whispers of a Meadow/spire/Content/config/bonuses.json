@@ -1,0 +1,15 @@
+{
+  "frozen":{
+    "description" : "{Frozen}\nCreature misses its turns.",
+    "graphics" : {
+			"icon" : "spire/spells/deepFrost/Effect.png"
+		}
+  },
+    
+  "weakened":{
+    "description" : "{Frozen weaknes}\nAttack is reduced by 50%.",
+    "graphics" : {
+			"icon" : "spire/spells/weakness0.png"
+		}
+  }
+}
