@@ -103,13 +103,14 @@
 		"config/spire/spells/core/sorrow.json",
 		"config/spire/spells/core/fortune.json",
 		"config/spire/spells/core/misfortune.json",
-
+		
 		"config/spire/spells/anxiety.json",
 		"config/spire/spells/clarity.json",
 		"config/spire/spells/confusion.json",
 		"config/spire/spells/empathy.json",
 		"config/spire/spells/fear.json",
-		"config/spire/spells/mindWhip.json"
+		"config/spire/spells/mindWhip.json",
+		"config/spire/spells/intervention.json"
 	],
 	"battlefields" : [
 		"config/spire/terrain/battlefields/battlefields.json"
@@ -150,6 +151,9 @@
 		"config/spire/dwellings.json",
 		"config/spire/banks/bankA.json",
 		"config/spire/banks/bankB.json"
+	],
+	"bonuses" : [
+		"config/bonuses.json"
 	],
 	"settings" : {
 		"combat": {
